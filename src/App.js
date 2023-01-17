@@ -1,7 +1,59 @@
-const App = () => {
+import './App.css';
+import {Personages} from "./Components/Personages/Personages";
+
+function App() {
+
     return (
-        <div>
-          App
+        <div className="App">
+            <Personages
+                id={'1'}
+                name={'"Rick Sanchez"'}
+                status={'"Alive"'}
+                species={'"Human"'}
+                gender={'"Male"'}
+                image={'https://rickandmortyapi.com/api/character/avatar/1.jpeg'}
+
+            />
+            <Personages
+                id={'2'}
+                name={'"Morty Smith"'}
+                status={'"Alive"'}
+                species={'"Human"'}
+                gender={'"Male"'}
+                image={'https://rickandmortyapi.com/api/character/avatar/2.jpeg'}
+            />
+            <Personages
+                id={'3'}
+                name={'"Summer Smith"'}
+                status={'"Alive"'}
+                species={'"Human"'}
+                gender={'"Female"'}
+                image={'https://rickandmortyapi.com/api/character/avatar/3.jpeg'}
+            />
+            <Personages
+                id={'4'}
+                name={'"Beth Smith""'}
+                status={'"Alive"'}
+                species={'"Human"'}
+                gender={'"Female"'}
+                image={'https://rickandmortyapi.com/api/character/avatar/4.jpeg'}
+            />
+            <Personages
+                id={'5'}
+                name={'"Jerry Smith"'}
+                status={'"Alive"'}
+                species={'"Human"'}
+                gender={'"Male"'}
+                image={'https://rickandmortyapi.com/api/character/avatar/5.jpeg'}
+            />
+            <Personages
+                id={'6'}
+                name={'"Abadango Cluster Princess"'}
+                status={'"Alive"'}
+                species={'"Alien"'}
+                gender={'"Female"'}
+                image={'https://rickandmortyapi.com/api/character/avatar/6.jpeg'}
+            />
         </div>
     );
 };
