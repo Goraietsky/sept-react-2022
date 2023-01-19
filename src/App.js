@@ -1,7 +1,12 @@
+
+import {Users} from "./Components/Users/Users";
+import {SingleUser} from "./Components/SingleUser/SingleUser";
+
 const App = () => {
  return (
   <div>
-   App
+   <Users/>
+      {/*<SingleUser/>*/}
   </div>
  );
 };
