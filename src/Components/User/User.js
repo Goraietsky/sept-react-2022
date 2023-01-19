@@ -1,6 +1,7 @@
 
 
 const User = ({user,setUserDetails}) => {
+
     const {id, name, username, email} = user;
 
  return (
